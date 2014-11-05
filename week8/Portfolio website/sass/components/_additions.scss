@@ -1,0 +1,15 @@
+.AboutMe
+{
+	@include single-text-shadow;
+}
+
+body 
+{
+	@include background-image(linear-gradient(to bottom right, white, #dddddd));
+}
+
+.BigBody
+{
+	@include border-radius(25px);
+}
+
