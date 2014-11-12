@@ -1,0 +1,105 @@
+
+
+.media-grid {
+  list-style-type: none;
+  background: #846f8d;
+
+  padding: 0;
+}
+
+.media-grid li {
+  text-align: center;
+  background: #DEC39D;
+  float: left;
+  height: 200px;
+  width: 20%;
+}
+
+.media-grid li:nth-child(even) {
+  background: #FFCC87;
+}
+
+.media-grid.media-grid-sm li {
+  width: 10%;
+  height: 100px;
+}
+
+
+.PageHeader
+{
+	background: #B6A388;
+	height: 500px;
+	font-size: 36px;
+	text-align: center;
+
+
+}
+
+.PageHeader header
+{
+	margin-bottom: -50px;
+}
+
+.accomplishment
+{
+	background: #FFF;
+	text-align: center;
+	font-size: 36px;
+
+
+}
+
+.accomplishment img
+{
+	height: 50%;
+	width: 50%;
+}
+
+
+.AboutMe
+{
+	background: #B6A388;
+
+	height: 500px;
+
+}
+
+.AboutMe p
+{
+	margin: 10px;
+	text-align: justify;
+	font-size: 24px;
+}
+
+.AboutMe li
+{
+	font-size: 20px;
+}
+
+.AboutMe #Games
+{
+	float: left;
+}
+
+.AboutMe #Series
+{
+	float: left;
+}
+
+.AboutMe #People
+{
+	float: left;
+}
+
+.BigBody
+{
+	padding: 0;
+	margin: 0;
+	border: 3px solid black;
+	background: #FFF;
+}
+
+body
+{
+	background: #D3B894;
+}

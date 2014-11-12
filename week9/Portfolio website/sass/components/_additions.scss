@@ -1,0 +1,15 @@
+.AboutMe ul
+{
+	@include no-bullet;
+}
+
+body 
+{
+	@include background-image(linear-gradient(to bottom right, white, #dddddd));
+}
+
+.BigBody
+{
+	@include border-radius(7.5px);
+}
+
