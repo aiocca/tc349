@@ -1,8 +1,6 @@
-@import "../application.scss";
-
-.AboutMe
+.AboutMe ul
 {
-	@include shade(#B6A388, 10%);
+	@include no-bullet;
 }
 
 body 
