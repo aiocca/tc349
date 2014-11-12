@@ -1,6 +1,8 @@
+@import "../application.scss";
+
 .AboutMe
 {
-	@include single-text-shadow;
+	@include shade(#B6A388, 10%);
 }
 
 body 
@@ -10,6 +12,6 @@ body
 
 .BigBody
 {
-	@include border-radius(25px);
+	@include border-radius(7.5px);
 }
 
