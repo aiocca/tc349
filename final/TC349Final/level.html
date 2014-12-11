@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Alec's Game Theory</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/application.css">
+        <script src="js/music.js"></script>
+
+	</head>
+	
+	<body>
+		<div id="home">
+			<header id="mainHead">Alec's Game Theory</header>
+			<table class="musicButtons">
+				<tr>
+					<td><img onclick="play();" alt="play" src="images/play.png"></td>
+					<td><img onclick="pause();" alt="pause" src="images/pause.png"></td>
+				</tr>
+			</table>
+			<ul class="navigation">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="articles.html">Articles</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="playing.html">Playing</a></li>
+				<li><a href="archive.html">Archives</a></li>
+			</ul>
+					<header class="articleClass">Alec's Ideas On Level Design</header>
+					<p class="articleText">Level Design, I'm not talking about how it looks, this isn’t about the art of level design. This article is about how the level flows and how it allows and doesn’t allow certain things by the very structure of the level. Recently I have spent quite a bit of time on Dragon Age: Inquisition. This game had beautiful level design. The game leads you into different areas of the game, split into different zones. The first zone you go to is ‘The Hinterlands.’ Right away you’re dropped into unknown territory and are only given one quest that isn’t to close by. You start traveling there because that is your objective, but along the way you run into different things, quests, locations, event, etc. These events are supposed to lure in players, showing them that there is much more around than just the main objective. Things like landmarks in the game, give players a bit of lore of the area they are in by claiming an area for their force (the inquisition). The game rewards players for exploring, but it doesn’t just let you run anywhere you want. Some areas are guarded by high level enemies, enemies you can’t defeat at the time you spend in the zone. You must explore the other zones of the games to level your character enough to come back and unlock other areas of zones you’ve already explored. This is a great quality. This allows players to keep going back to zones and be rewarded for going back. Most games send you through an area and never send you back, or if you go back there really isn’t any reason. Dragon Age: Inquisition has, in my opinion, some of the best level design. Replayability and exploration are two things that many different genres need and Inquisition showcases very high quality Level Design in these two aspects.
+						</p>
+								<form action="rate" method="post" class="Rater">
+								<fieldset>
+            					<p id="RaterP">Use this panel to rate each criteria on a scale of 1 to 10, then get your average overall.</p>
+								<div class="raterDiv"><label for="interest">Interesting </label><input type="number" name="interest" id="interest" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="content">Content </label><input type="number" name="content" id="content" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="easy">Creative </label><input type="number" name="easy" id="easy" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="quality">Quality </label><input type="number" name="quality" id="quality" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="average">Average </label><input type="text" name="average" id="average" value="0"></div>
+								<div class="raterDiv"><input type="button" value="calculate" id="submit" onclick="calculate()"></div>
+								<div class="raterDiv">Thank you for your time!</div>
+        						</fieldset>
+        					</form>
+		</div>
+		        <script src="js/rating.js"></script>
+	</body>
+	
+		
+		
+</html>

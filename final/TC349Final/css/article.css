@@ -1,0 +1,79 @@
+#mainHead
+{
+	text-align: center;
+	font-size: 2em;
+}
+
+#mainFeed
+{
+	text-align: center;
+}
+
+#home
+{
+	background-color: #E5E5E5;
+	border-width: .2em;
+	border-style: solid;
+	border-radius: .5em;
+}
+
+
+.navigation
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+
+.navigation li
+{
+  text-align: center;
+  background: #A39F9B;
+  float: left;
+  height: 50px;
+  width: 20%;
+  font-size: 1.5em;
+}
+
+.navigation li:nth-child(even)
+{
+	background: #776F63;
+}
+
+.articleClass
+{
+	margin: 3em;
+	text-align: center;
+	font-size: 2em;
+}
+
+.articleText
+{
+	text-align: center;
+	font-size: 1.25em;
+	margin-left: 20em;
+	margin-right: 20em;
+	margin-bottom: 5em;
+}
+
+.raterDiv
+{
+	margin: 1em;
+	font-size: 1em;
+}
+
+form
+{
+	background-color: #776F63;
+	border: 2px solid #000000;
+	border-radius: .5em;
+	margin-left: 40em;
+	margin-bottom: 3em;
+	width: 20%;
+	color: #E5E5E5;
+}
+
+fieldset
+{
+	height: 25em;
+}

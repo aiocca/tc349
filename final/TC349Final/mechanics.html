@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Alec's Game Theory</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/application.css">
+        <script src="js/music.js"></script>
+	</head>
+	
+	<body>
+		<div id="home">
+			<header id="mainHead">Alec's Game Theory</header>
+			<table class="musicButtons">
+				<tr>
+					<td><img onclick="play();" alt="play" src="images/play.png"></td>
+					<td><img onclick="pause();" alt="pause" src="images/pause.png"></td>
+				</tr>
+			</table>
+			<ul class="navigation">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="articles.html">Articles</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="playing.html">Playing</a></li>
+				<li><a href="archive.html">Archives</a></li>
+			</ul>
+				<header class="articleClass">Alec's Ideas On Mechanics In Games</header>
+				<p class="articleText">Mechanics, this is what you do and how you can manipulate or apply it to your advantage. Controls of the game, or how it’s played. This includes movement, attack actions, enemy AI, distance, etc. We’ll look at the game The Binding of Isaac: Rebirth to analyze good mechanics in my opinion. This game has mechanics that allow for randomness. The randomness in this game means that different enemies, power-ups, room structure and bosses spawn. That’s just one mechanic, but it allows the player high amounts of replayability increases amount of time spent on game on average. The player controls Isaac using the WASD keys for up, down, left and right movement and the Arrow keys for shooting in different directions. The game is simple shoot the enemies to kill them and don’t take their hits in return to prevent death. Now the mechanics of this game are very simple but can become much more by acquiring power-ups. Power-ups will change how you shoot or move. They’ll give you longer range, faster shooting speed, more damage or even different attacks. Because of these power-ups and the altering nature that they bring, it really allows players to enjoy once again more replayability. Mechanics should always be simple, they shouldn’t make the game hard because they hinder the player with terrible controls. Everything should be fluent and natural, and good games take advantage of this.</p>
+								<form action="rate" method="post" class="Rater">
+								<fieldset>
+            					<p id="RaterP">Use this panel to rate each criteria on a scale of 1 to 10, then get your average overall.</p>
+								<div class="raterDiv"><label for="interest">Interesting </label><input type="number" name="interest" id="interest" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="content">Content </label><input type="number" name="content" id="content" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="easy">Creative </label><input type="number" name="easy" id="easy" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="quality">Quality </label><input type="number" name="quality" id="quality" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="average">Average </label><input type="text" name="average" id="average" value="0"></div>
+								<div class="raterDiv"><input type="button" value="calculate" id="submit" onclick="calculate()"></div>
+								<div class="raterDiv">Thank you for your time!</div>
+        						</fieldset>
+        					</form>
+		</div>
+		        <script src="js/rating.js"></script>
+	</body>
+	
+		
+		
+</html>

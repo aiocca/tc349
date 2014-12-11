@@ -1,0 +1,435 @@
+/* line 2, ../sass/components/_main.scss */
+#mainHead {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 8, ../sass/components/_main.scss */
+#mainFeed {
+  text-align: center;
+}
+
+/* line 13, ../sass/components/_main.scss */
+#home {
+  background-color: #E5E5E5;
+  border-width: .2em;
+  border-style: solid;
+  border-radius: .5em;
+}
+
+/* line 22, ../sass/components/_main.scss */
+#aboutMe {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 28, ../sass/components/_main.scss */
+#aboutArts {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 34, ../sass/components/_main.scss */
+#alec {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 3em;
+}
+
+/* line 41, ../sass/components/_main.scss */
+#alecIMG {
+  width: 30%;
+  margin-left: 33em;
+}
+
+/* line 47, ../sass/components/_main.scss */
+#alecSM {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 53, ../sass/components/_main.scss */
+#alecSocial {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* line 59, ../sass/components/_main.scss */
+#aboutArticles {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 3em;
+}
+
+/* line 66, ../sass/components/_main.scss */
+#about {
+  margin-bottom: 3em;
+}
+
+/* line 71, ../sass/components/_main.scss */
+#arts {
+  margin-bottom: 3em;
+}
+
+/* line 76, ../sass/components/_main.scss */
+#media {
+  list-style-type: none;
+  margin-left: 15em;
+  margin-bottom: 5em;
+  padding: 0px;
+}
+
+/* line 84, ../sass/components/_main.scss */
+#media li {
+  text-align: center;
+  background: #A39F9B;
+  float: left;
+  height: 50px;
+  width: 20%;
+  font-size: 1.5em;
+}
+
+/* line 94, ../sass/components/_main.scss */
+#media li:nth-child(even) {
+  background: #776F63;
+}
+
+/* line 100, ../sass/components/_main.scss */
+#current {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 106, ../sass/components/_main.scss */
+#heroes {
+  width: 94%;
+}
+
+/* line 111, ../sass/components/_main.scss */
+#cvs {
+  width: 94%;
+}
+
+/* line 116, ../sass/components/_main.scss */
+.navigation {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 123, ../sass/components/_main.scss */
+.navigation li {
+  text-align: center;
+  background: #A39F9B;
+  float: left;
+  height: 50px;
+  width: 20%;
+  font-size: 1.5em;
+}
+
+/* line 133, ../sass/components/_main.scss */
+.navigation li:nth-child(even) {
+  background: #776F63;
+}
+
+/* line 139, ../sass/components/_main.scss */
+.articles {
+  margin-left: 25em;
+  margin-bottom: 10em;
+}
+
+/* line 145, ../sass/components/_main.scss */
+.text {
+  text-align: center;
+  font-size: 1em;
+}
+
+/* line 151, ../sass/components/_main.scss */
+.musicButtons {
+  margin-left: 43em;
+}
+
+/* line 156, ../sass/components/_main.scss */
+#sources {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 162, ../sass/components/_main.scss */
+#tableSource {
+  margin-left: 17em;
+  margin-bottom: 5em;
+}
+
+/* line 168, ../sass/components/_main.scss */
+.new {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 176, ../sass/components/_main.scss */
+.tdIMG {
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  /* line 183, ../sass/components/_main.scss */
+  #mainHead {
+    width: 30%;
+  }
+
+  /* line 187, ../sass/components/_main.scss */
+  #mainFeed {
+    width: 30%;
+  }
+
+  /* line 192, ../sass/components/_main.scss */
+  #home {
+    width: 30%;
+  }
+
+  /* line 198, ../sass/components/_main.scss */
+  #aboutMe {
+    width: 30%;
+  }
+
+  /* line 203, ../sass/components/_main.scss */
+  #aboutArts {
+    width: 30%;
+  }
+
+  /* line 208, ../sass/components/_main.scss */
+  #alec {
+    width: 30%;
+  }
+
+  /* line 213, ../sass/components/_main.scss */
+  #alecIMG {
+    max-width: 100%;
+  }
+
+  /* line 218, ../sass/components/_main.scss */
+  #alecSM {
+    width: 30%;
+  }
+
+  /* line 223, ../sass/components/_main.scss */
+  #alecSocial {
+    width: 30%;
+  }
+
+  /* line 228, ../sass/components/_main.scss */
+  #aboutArticles {
+    width: 30%;
+  }
+
+  /* line 233, ../sass/components/_main.scss */
+  #about {
+    width: 30%;
+  }
+
+  /* line 238, ../sass/components/_main.scss */
+  #arts {
+    width: 30%;
+  }
+
+  /* line 243, ../sass/components/_main.scss */
+  #media {
+    width: 30%;
+  }
+
+  /* line 248, ../sass/components/_main.scss */
+  #media li {
+    width: 30%;
+  }
+
+  /* line 253, ../sass/components/_main.scss */
+  #current {
+    width: 30%;
+  }
+
+  /* line 258, ../sass/components/_main.scss */
+  #heroes {
+    max-width: 94%;
+  }
+
+  /* line 263, ../sass/components/_main.scss */
+  #cvs {
+    max-width: 94%;
+  }
+
+  /* line 268, ../sass/components/_main.scss */
+  .navigation {
+    width: 30%;
+  }
+
+  /* line 274, ../sass/components/_main.scss */
+  .navigation li {
+    width: 30%;
+  }
+
+  /* line 279, ../sass/components/_main.scss */
+  .articles {
+    width: 30%;
+  }
+
+  /* line 284, ../sass/components/_main.scss */
+  .text {
+    width: 30%;
+  }
+
+  /* line 289, ../sass/components/_main.scss */
+  .musicButtons {
+    width: 30%;
+  }
+
+  /* line 294, ../sass/components/_main.scss */
+  #sources {
+    width: 30%;
+  }
+
+  /* line 299, ../sass/components/_main.scss */
+  #tableSource {
+    width: 30%;
+  }
+
+  /* line 304, ../sass/components/_main.scss */
+  .new {
+    width: 30%;
+  }
+
+  /* line 309, ../sass/components/_main.scss */
+  .tdIMG {
+    max-width: 50%;
+  }
+}
+/* line 2, ../sass/components/_article.scss */
+#mainHead {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 8, ../sass/components/_article.scss */
+#mainFeed {
+  text-align: center;
+}
+
+/* line 13, ../sass/components/_article.scss */
+#home {
+  background-color: #E5E5E5;
+  border-width: .2em;
+  border-style: solid;
+  border-radius: .5em;
+}
+
+/* line 22, ../sass/components/_article.scss */
+.navigation {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 29, ../sass/components/_article.scss */
+.navigation li {
+  text-align: center;
+  background: #A39F9B;
+  float: left;
+  height: 50px;
+  width: 20%;
+  font-size: 1.5em;
+}
+
+/* line 39, ../sass/components/_article.scss */
+.navigation li:nth-child(even) {
+  background: #776F63;
+}
+
+/* line 44, ../sass/components/_article.scss */
+.articleClass {
+  margin: 3em;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 51, ../sass/components/_article.scss */
+.articleText {
+  text-align: center;
+  font-size: 1.25em;
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-bottom: 5em;
+}
+
+/* line 60, ../sass/components/_article.scss */
+.raterDiv {
+  margin: 1em;
+  font-size: 1em;
+}
+
+/* line 66, ../sass/components/_article.scss */
+form {
+  background-color: #776F63;
+  border: 2px solid #000000;
+  border-radius: .5em;
+  margin-left: 40em;
+  margin-bottom: 3em;
+  width: 20%;
+  color: #E5E5E5;
+}
+
+/* line 77, ../sass/components/_article.scss */
+fieldset {
+  height: 25em;
+}
+
+@media (max-width: 600px) {
+  /* line 84, ../sass/components/_article.scss */
+  #mainHead {
+    width: 30%;
+  }
+
+  /* line 89, ../sass/components/_article.scss */
+  #mainFeed {
+    width: 30%;
+  }
+
+  /* line 94, ../sass/components/_article.scss */
+  #home {
+    width: 30%;
+  }
+
+  /* line 100, ../sass/components/_article.scss */
+  .navigation {
+    width: 30%;
+  }
+
+  /* line 106, ../sass/components/_article.scss */
+  .navigation li {
+    width: 30%;
+  }
+
+  /* line 111, ../sass/components/_article.scss */
+  .articleClass {
+    width: 30%;
+  }
+
+  /* line 116, ../sass/components/_article.scss */
+  .articleText {
+    width: 30%;
+  }
+
+  /* line 121, ../sass/components/_article.scss */
+  .raterDiv {
+    width: 30%;
+  }
+
+  /* line 126, ../sass/components/_article.scss */
+  form {
+    width: 30%;
+  }
+
+  /* line 131, ../sass/components/_article.scss */
+  fieldset {
+    width: 30%;
+  }
+}

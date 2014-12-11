@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Alec's Game Theory</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/application.css">
+        <script src="js/music.js"></script>
+
+	</head>
+	
+	<body>
+		<div id="home">
+			<header id="mainHead">Alec's Game Theory</header>
+			<table class="musicButtons">
+				<tr>
+					<td><img onclick="play();" alt="play" src="images/play.png"></td>
+					<td><img onclick="pause();" alt="pause" src="images/pause.png"></td>
+				</tr>
+			</table>
+			<ul class="navigation">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="articles.html">Articles</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="playing.html">Playing</a></li>
+				<li><a href="archive.html">Archives</a></li>
+			</ul>
+				<header class="articleClass">Alec's Ideas On Mechanics In Games</header>
+				<p class="articleText">Difficulty, one of the most important part of an amazing game experience. Games are something some people do for fun and others do it for challenge as well as other reason. For this article we’ll be focusing on Challenge and Fun. All games require a certain amount of difficulty to be challenging and in fact I’d say that most games are challenging but in different amounts. Candy Crush is a game that demonstrates good Difficulty as a principle of game design. As you play the game you start at levels that are easy and slowly as you get more used to the game they begin to ramp up in difficulty. This is the cut and dried answer. Games must be easy relative to the game in the beginning to facilitate good learning of the game. As the player plays more and more it is acceptable to think that they are gaining some knowledge on how to properly play or play well. At this time it’s acceptable to raise the difficulty of the game for the player to challenge them. Difficulty directly correlates with Fun. If a game is just challenging enough to require a good amount of effort out of the player, it’s fun. If a game is too easy or two hard it’s not, it’s boring or frustrating. It’s up to game developers to decide when and how much to raise or lower the difficulty and it should always be relative to amount of time played as well as strength of the player’s character in some games. Things should never be blowouts and they should never be impassable, they should require critical thinking and application of varying levels of effort. That’s how Difficulty applies to games.</p>
+								<form action="rate" method="post" class="Rater">
+								<fieldset>
+            					<p id="RaterP">Use this panel to rate each criteria on a scale of 1 to 10, then get your average overall.</p>
+								<div class="raterDiv"><label for="interest">Interesting </label><input type="number" name="interest" id="interest" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="content">Content </label><input type="number" name="content" id="content" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="easy">Creative </label><input type="number" name="easy" id="easy" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="quality">Quality </label><input type="number" name="quality" id="quality" value=1 min="1" required></div>
+								<div class="raterDiv"><label for="average">Average </label><input type="text" name="average" id="average" value="0"></div>
+								<div class="raterDiv"><input type="button" value="calculate" id="submit" onclick="calculate()"></div>
+								<div class="raterDiv">Thank you for your time!</div>
+        						</fieldset>
+        					</form>
+		</div>
+		        <script src="js/rating.js"></script>
+	</body>
+	
+		
+		
+</html>
